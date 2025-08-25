@@ -72,7 +72,7 @@ let showNote=()=>{
     <div id='ele'>
     <span class='btn'>${i+1}</span>
     <li class='sty1'>${x.title}</li>
-    <li class='sty2'>${x.textNote}</li>
+    <li class='sty2 des'>${x.textNote}</li>
     <button onclick='deleteNote(${i})'>🗑️</button>
     </div>
     <button onclick='editNote(${i})'>✏️ Edit</button>
