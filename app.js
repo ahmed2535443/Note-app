@@ -70,7 +70,7 @@ let showNote=()=>{
   listNote.map((x,i)=>{
     notesList.innerHTML += `
     <div id='ele'>
-    <span class='btn'>${i}</span>
+    <span class='btn'>${i+1}</span>
     <li class='sty1'>${x.title}</li>
     <li class='sty2'>${x.textNote}</li>
     <button onclick='deleteNote(${i})'>🗑️</button>
