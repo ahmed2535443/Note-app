@@ -1,0 +1,35 @@
+body { font-family: Arial; background:black;
+color: white;
+padding:20px }
+#cont { max-width:500px; margin:auto }
+input, textarea { width:100%; padding:8px; margin:5px 0; border:1px solid #ccc; border-radius:5px }
+button { padding:8px 12px; margin:5px 0; border:none; border-radius:5px; cursor:pointer }
+.note { background:#fff; padding:10px; border:1px solid #ddd; border-radius:8px; margin:10px 0 }
+.note h3 { margin:0 0 5px }
+.note button { background:red; color:#fff; float:right }
+#deleteAllBtn { background:#333; color:#fff; width:100%; margin-top:10px }
+
+
+#notesList{
+  background: #777; 
+  padding: 10px;
+  min-height: 500px;
+  border-radius: 10px;
+}
+
+li{
+  list-style: none;
+  display: block;
+  padding: 10px;
+  color: white;
+}
+
+#ele{
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.hide{
+  display: none;
+}
